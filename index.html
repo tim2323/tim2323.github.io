@@ -15,6 +15,15 @@
   width: 100%;
   height: 15vw;
   object-fit: cover; }
+  .jumbotron {
+margin-top: 20px;
+    background: url("maison-hote-2.jpg")no-repeat center; 
+    background-size: cover;
+    color : rgb(255, 0, 0);
+  }
+
+ 
+
 </style>
 </head>
 
@@ -22,6 +31,16 @@
 
 <body>
 
+<!-- Début jumbotron -->
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">BIENVENUE</h1>
+    <p class="lead">Nous serons ravis de vous acceuillir dans notre maison d'hôte.</p>
+  </div>
+</div>
+
+<!-- Fin jumbotron  -->
 
 
 <!-- debut navbar -->
@@ -184,6 +203,10 @@
 
 <!--  fin card -->
 
+
+
+
+
   <h1 style="color:blue">Hello, world!</h1>
   <h2>Gr4vity</h2>
   <p><strong>Lorem ipsum dolor sit</strong> amet, consectetur adipisicing elit, sed do eiusmod
@@ -193,10 +216,64 @@
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+
+<!--  Début carrousel -->
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="chambre1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="chambre2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="chambre3.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!-- FIN carrousel -->
+
+
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+ <!-- Début du footer -->
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 PréfoWeb:
+    <a href="https://mdbootstrap.com/bootstrap-tutorial/"> tim2323.github.io</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+<!-- fin du footer -->
+
 </body>
 </html>
